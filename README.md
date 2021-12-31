@@ -2,7 +2,7 @@
 
 ## 0. 关于本项目
 主控：STM32F103C8T6
-![image](image/1.jpg)
+![image](https://github.com/LHD0617/MY_STM32F103_Drive/blob/main/image/1.jpg)
 作为一名智能车参赛选手对于STM32的HAL库使用起来并不熟悉，我就在想可不可以自己写一个类似于智能车驱动库那样的STM32驱动库。
 
 下载电路为STC官方提供的原理图   但需要自行安装驱动
