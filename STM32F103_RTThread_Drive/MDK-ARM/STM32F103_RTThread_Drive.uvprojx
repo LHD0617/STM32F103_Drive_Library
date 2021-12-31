@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/Inc;../RT-Thread;../RT-Thread/include;../RT-Thread/finsh;../RT-Thread/components/finsh</IncludePath>
+              <IncludePath>../Core/Inc;../User/Inc;../Drivers/Inc;../RT-Thread;../RT-Thread/include;../RT-Thread/finsh;../RT-Thread/components/finsh</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -405,7 +405,17 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Core/Src/main.c</FilePath>
+              <FilePath>..\User\Src\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Drivers</GroupName>
+          <Files>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Src\gpio.c</FilePath>
             </File>
           </Files>
         </Group>
