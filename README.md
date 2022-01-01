@@ -33,3 +33,32 @@
     void gpio_dir(GPIO_Num pin, GPIO_Dir dir, GPIO_Mode mode, GPIO_Speed speed);
 
     void gpio_reverse(GPIO_Num pin);
+
+## 2022/1/1更新
+1.添加UART驱动
+
+    void uart_init(UART_Num num, uint32 bound, UART_Pin TX_Pin, UART_Pin RX_Pin, UART_WordLength length, UART_StopBits stop, UART_Parity parity);
+
+    void uart_putchar(UART_Num num, uint8 dat);
+
+    void uart_putbuff(UART_Num num, uint8* buff, uint32 len);
+
+    void uart_putstr(UART_Num num, const char *str);
+
+    uint8 uart_getchar(UART_Num num);
+
+    uint8 uart_query(UART_Num num, uint8 *dat);
+
+2.添加NVIC中断管理
+
+    void nvic_init(uint8 PreemptionPriority, uint8 SubPriority, uint8 Channel);
+
+    void nvic_PriorityGroupConfig(uint8 nvic_Group);
+
+    已在rt_hw_board_init中进行配置中断分组，默认为组二2 位抢占优先级,2 位响应优先级，可在nvic.h文件中修改NVIC_Group宏定义进行配置中断分组
+
+3.添加中断服务函数
+
+    IRQHandler.c
+
+4.添加RT-Thread Finsh组件（默认使用UART2为调试串口可在main.h中修改）
