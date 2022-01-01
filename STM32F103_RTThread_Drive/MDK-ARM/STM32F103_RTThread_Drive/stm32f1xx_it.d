@@ -19,4 +19,8 @@ stm32f103_rtthread_drive\stm32f1xx_it.o: D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\
 stm32f103_rtthread_drive\stm32f1xx_it.o: D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/system_stm32f1xx.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/stm32f1xx.h
+stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/uart.h
+stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/IRQHandler.h
+stm32f103_rtthread_drive\stm32f1xx_it.o: ../User/Inc/main.h
+stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/nvic.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/stm32f1xx_it.h

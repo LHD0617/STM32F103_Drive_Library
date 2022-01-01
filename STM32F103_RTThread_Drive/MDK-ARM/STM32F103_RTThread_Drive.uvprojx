@@ -397,6 +397,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_it.c</FilePath>
             </File>
+            <File>
+              <FileName>IRQHandler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\IRQHandler.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -416,6 +421,16 @@
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Drivers\Src\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Src\uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>nvic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Src\nvic.c</FilePath>
             </File>
           </Files>
         </Group>

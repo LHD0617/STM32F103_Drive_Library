@@ -22,39 +22,13 @@
 	* @return void
 	* @Sample 
   */
-int32 sum1=0,sum2=0;
-void thread_entry1(void* parameter);
-void thread_entry2(void* parameter);
-	
 int main(void)
 {
-	rt_thread_t tid1 = rt_thread_create("tid1",thread_entry1,RT_NULL,128,5,10);
-	rt_thread_t tid2 = rt_thread_create("tid2",thread_entry2,RT_NULL,128,5,10);
-	rt_thread_startup(tid1);
-	rt_thread_startup(tid2);
 	gpio_init(PC13, GPO, 0, GPO_PUSH_PULL, GPIO_SPEED_50MHZ);
 	while(1)
 	{
 		gpio_reverse(PC13);
 		rt_thread_mdelay(100);
-	}
-}
-
-void thread_entry1(void* parameter)
-{
-	while(1)
-	{
-		sum1 += 1;
-		rt_thread_mdelay(100);
-	}
-}
-
-void thread_entry2(void* parameter)
-{
-	while(1)
-	{
-		sum2 += 1;
-		rt_thread_mdelay(1000);
 	}
 }
 

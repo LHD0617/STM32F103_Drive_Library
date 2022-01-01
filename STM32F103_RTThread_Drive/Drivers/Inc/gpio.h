@@ -45,7 +45,7 @@ typedef enum
 
 	GPO_PUSH_PULL				=	0x00,						// 定义管脚推挽输出
 	GPO_OPEN_DTAIN			= 0x04,						// 定义管脚开漏输出
-	GPO_AF_PUSH_PUL			=	0x08,						// 定义管脚复用推挽输出
+	GPO_AF_PUSH_PULL		=	0x08,						// 定义管脚复用推挽输出
 	GPO_AF_OPEN_DTAIN		= 0x0C,						// 定义管脚复用开漏输出
 	
 }GPIO_Mode;

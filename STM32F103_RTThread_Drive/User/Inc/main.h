@@ -19,12 +19,23 @@
 extern "C" {
 #endif
 
+
+/*RT-Thread Debug	¶Ë¿Ú²ÎÊý*/
+#define 	Debug_UART					UART2
+#define		Debug_Bound					115200
+#define 	Debug_TX_Pin				UART2_TX_PA2
+#define 	Debug_RX_Pin				UART2_RX_PA3
+#define 	Debug_WordLength		WordLength_8b
+#define		Debug_StopBits			StopBits_1
+#define 	Debug_Parity				Parity_No
+
 /* Includes ------------------------------------------------------------------*/
 #include <rtthread.h>
 #include "common.h"
 
 /*Drivers*/
 #include "gpio.h"
+#include "uart.h"
 
 
 
