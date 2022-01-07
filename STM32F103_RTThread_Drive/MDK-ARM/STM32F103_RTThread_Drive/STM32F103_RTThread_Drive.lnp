@@ -7,6 +7,7 @@
 "stm32f103_rtthread_drive\gpio.o"
 "stm32f103_rtthread_drive\uart.o"
 "stm32f103_rtthread_drive\nvic.o"
+"stm32f103_rtthread_drive\adc.o"
 "stm32f103_rtthread_drive\device.o"
 "stm32f103_rtthread_drive\cmd.o"
 "stm32f103_rtthread_drive\finsh_port.o"

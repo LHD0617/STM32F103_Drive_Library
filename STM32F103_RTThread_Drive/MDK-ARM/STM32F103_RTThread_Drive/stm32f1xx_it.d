@@ -23,4 +23,5 @@ stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/uart.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/IRQHandler.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../User/Inc/main.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/nvic.h
+stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/adc.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/stm32f1xx_it.h
