@@ -62,3 +62,10 @@
     IRQHandler.c
 
 4.添加RT-Thread Finsh组件（默认使用UART2为调试串口可在main.h中修改）
+
+## 2022/1/7更新
+1.添加adc驱动
+
+    void adc_init(ADC_Num num, ADC_CH pin);
+    
+    uint16 adc_get(ADC_Num num, ADC_CH pin);
