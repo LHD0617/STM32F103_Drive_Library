@@ -1,10 +1,10 @@
 /**
   ******************************************************************************
-  * @file           : IRQHandler.h
-  * @brief          : 中断服务函数
+  * @file           : pit.h
+  * @brief          : PIT驱动
 	* @author					: 满心欢喜
 	* @contact				: QQ:320388825 VX:LHD0617_
-	* @Created				: 2021/12/31
+	* @Created				: 2021/1/8
   ******************************************************************************
   * @attention
   *
@@ -12,22 +12,26 @@
   *
   ******************************************************************************
   */
-
-#ifndef _IRQHANDLER_H
-#define _IRQHANDLER_H
+#ifndef _PIT_H
+#define _PIT_H
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "stm32f103xb.h"
+#include "stm32f1xx.h"
+#include "IRQHandler.h"
+#include "nvic.h"
 
-/*UART中断标志位*/
-extern vuint8 UART1_Interrupt_flag;
-extern vuint8 UART2_Interrupt_flag;
-extern vuint8 UART3_Interrupt_flag;
+/*设置PIT定时器枚举类型*/
+typedef enum
+{
+	PIT_TIM1,
+	PIT_TIM2,
+	PIT_TIM3,
+	PIT_TIM4,
+}PIT_TIM_Num;
 
-/*PIT中断标志位*/
-extern vuint8 PIT1_Interrupt_flag;
-extern vuint8 PIT2_Interrupt_flag;
-extern vuint8 PIT3_Interrupt_flag;
-extern vuint8 PIT4_Interrupt_flag;
+/*函数声明*/
+void pit_init_ms(PIT_TIM_Num num, uint16 ms, uint8 PreemptionPriority, uint8 SubPriority);
 
 
 #endif
+

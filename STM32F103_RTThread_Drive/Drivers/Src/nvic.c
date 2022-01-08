@@ -24,7 +24,7 @@
 						中断优先级务必设置在规定范围之内否则可能产生意想不到的错误
 	* @param  Channel 								中断编号
 	* @return void
-	* @Sample nvic_init(3, 3, USART1)
+	* @Sample nvic_init(3, 3, USART1_IRQn)
   */
 void nvic_init(uint8 PreemptionPriority, uint8 SubPriority, uint8 Channel)
 {

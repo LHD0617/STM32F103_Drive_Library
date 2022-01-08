@@ -69,3 +69,8 @@
     void adc_init(ADC_Num num, ADC_CH pin);
     
     uint16 adc_get(ADC_Num num, ADC_CH pin);
+
+## 2022/1/8更新
+1.添加pit定时中断驱动
+
+    void pit_init_ms(PIT_TIM_Num num, uint16 ms, uint8 PreemptionPriority, uint8 SubPriority);

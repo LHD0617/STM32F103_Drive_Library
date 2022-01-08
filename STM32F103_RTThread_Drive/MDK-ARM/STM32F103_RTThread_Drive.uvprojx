@@ -437,6 +437,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\Src\adc.c</FilePath>
             </File>
+            <File>
+              <FileName>pit.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Src\pit.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

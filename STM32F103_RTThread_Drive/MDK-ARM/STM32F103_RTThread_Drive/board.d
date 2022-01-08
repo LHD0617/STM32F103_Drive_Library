@@ -25,3 +25,4 @@ stm32f103_rtthread_drive\board.o: ../Core/Inc/IRQHandler.h
 stm32f103_rtthread_drive\board.o: ../User/Inc/main.h
 stm32f103_rtthread_drive\board.o: ../Drivers/Inc/nvic.h
 stm32f103_rtthread_drive\board.o: ../Drivers/Inc/adc.h
+stm32f103_rtthread_drive\board.o: ../Drivers/Inc/pit.h

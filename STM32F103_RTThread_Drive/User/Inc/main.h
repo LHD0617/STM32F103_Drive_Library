@@ -38,6 +38,7 @@ extern "C" {
 #include "uart.h"
 #include "nvic.h"
 #include "adc.h"
+#include "pit.h"
 
 
 
