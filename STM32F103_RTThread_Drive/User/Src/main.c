@@ -24,15 +24,16 @@
   */
 int main(void)
 {
-	gpio_init(PC13, GPO, 0, GPO_PUSH_PULL, GPIO_SPEED_50MHZ);
-	pit_init_ms(PIT_TIM3, 100, 2, 2);
+	uint16 i;
+	pwm_init(PWM_TIM1, TIM1_CH01_A08, 50, 100);
+	pwm_init(PWM_TIM1, TIM1_CH02_A09, 50, 200);
+	pwm_init(PWM_TIM1, TIM1_CH03_A10, 50, 300);
+	pwm_init(PWM_TIM1, TIM1_CH04_A11, 50, 500);
 	while(1)
 	{
-		if(PIT3_Interrupt_flag)
-		{
-			PIT3_Interrupt_flag = 0;
-			gpio_reverse(PC13);
-		}
+		pwm_duty(PWM_TIM1, TIM1_CH01_A08, i+=100);
+		if (i>=10000) i=0;
+		rt_thread_mdelay(20);
 	}
 }
 

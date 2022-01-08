@@ -39,6 +39,7 @@ extern "C" {
 #include "nvic.h"
 #include "adc.h"
 #include "pit.h"
+#include "pwm.h"
 
 
 

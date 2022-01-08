@@ -195,6 +195,9 @@ void SystemInit (void)
 	RCC->CFGR|=2<<0;
 	//等待系统时钟设置成功
 	while((RCC->CFGR&0x0f)!=0x0a);
+	//关闭JTAG-DP，启用SW-DP
+	RCC->APB2ENR |= RCC_APB2ENR_AFIOEN;
+	AFIO->MAPR |= 0x02<<AFIO_MAPR_SWJ_CFG_Pos;
 }
 
 /**

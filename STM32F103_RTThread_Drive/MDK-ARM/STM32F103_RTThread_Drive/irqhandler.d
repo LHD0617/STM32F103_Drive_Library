@@ -25,3 +25,4 @@ stm32f103_rtthread_drive\irqhandler.o: ../Core/Inc/IRQHandler.h
 stm32f103_rtthread_drive\irqhandler.o: ../Drivers/Inc/nvic.h
 stm32f103_rtthread_drive\irqhandler.o: ../Drivers/Inc/adc.h
 stm32f103_rtthread_drive\irqhandler.o: ../Drivers/Inc/pit.h
+stm32f103_rtthread_drive\irqhandler.o: ../Drivers/Inc/pwm.h
