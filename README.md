@@ -83,7 +83,7 @@
     
     void pwm_duty(PWM_TIM_Num num, PWM_CH pin, uint16 duty);
 
-## 2022/1/17
+## 2022/1/17更新
 1.添加EXTI外部中断程序
 
     void exti_init(GPIO_Num pin, Exti_Mode mode, uint8 PreemptionPriority, uint8 SubPriority);
