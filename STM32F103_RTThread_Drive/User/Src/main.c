@@ -24,16 +24,9 @@
   */
 int main(void)
 {
-	uint16 i;
-	pwm_init(PWM_TIM1, TIM1_CH01_A08, 50, 100);
-	pwm_init(PWM_TIM1, TIM1_CH02_A09, 50, 200);
-	pwm_init(PWM_TIM1, TIM1_CH03_A10, 50, 300);
-	pwm_init(PWM_TIM1, TIM1_CH04_A11, 50, 500);
 	while(1)
 	{
-		pwm_duty(PWM_TIM1, TIM1_CH01_A08, i+=100);
-		if (i>=10000) i=0;
-		rt_thread_mdelay(20);
+		
 	}
 }
 

@@ -181,3 +181,131 @@ void TIM4_IRQHandler(void)
 	
 	rt_interrupt_leave();
 }
+
+/**
+	* @name		EXTI0_IRQHandler
+  * @brief 	LINE0中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI0_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & EXTI_PR_PR0) && (EXTI->IMR & EXTI_IMR_IM0))
+	{
+		EXTI->PR |= EXTI_PR_PR0;
+		
+	}
+	rt_interrupt_leave();
+}
+
+/**
+	* @name		EXTI1_IRQHandler
+  * @brief 	LINE1中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI1_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & EXTI_PR_PR1) && (EXTI->IMR & EXTI_IMR_IM1))
+	{
+		EXTI->PR |= EXTI_PR_PR1;
+
+	}
+	rt_interrupt_leave();
+}
+
+/**
+	* @name		EXTI2_IRQHandler
+  * @brief 	LINE2中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI2_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & EXTI_PR_PR2) && (EXTI->IMR & EXTI_IMR_IM2))
+	{
+		EXTI->PR |= EXTI_PR_PR2;
+
+	}
+	rt_interrupt_leave();
+}
+
+/**
+	* @name		EXTI3_IRQHandler
+  * @brief 	LINE3中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI3_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & EXTI_PR_PR3) && (EXTI->IMR & EXTI_IMR_IM3))
+	{
+		EXTI->PR |= EXTI_PR_PR3;
+
+	}
+	rt_interrupt_leave();
+}
+
+/**
+	* @name		EXTI4_IRQHandler
+  * @brief 	LINE4中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI4_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & EXTI_PR_PR4) && (EXTI->IMR & EXTI_IMR_IM4))
+	{
+		EXTI->PR |= EXTI_PR_PR4;
+
+	}
+	rt_interrupt_leave();
+}
+
+/**
+	* @name		EXTI9_5_IRQHandler
+  * @brief 	LINE9_5中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI9_5_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & 0x03E0) && (EXTI->IMR & 0x03E0))
+	{
+		EXTI->PR |= 0x1F<<5;
+
+	}
+	rt_interrupt_leave();
+}
+
+/**
+	* @name		EXTI15_10_IRQHandler
+  * @brief 	LINE15_10中断服务函数
+	* @param  void
+	* @return void
+	* @Sample 
+  */
+void EXTI15_10_IRQHandler(void)
+{
+	rt_interrupt_enter();
+	if((EXTI->PR & 0xFC00) && (EXTI->IMR & 0xFC00))
+	{
+		EXTI->PR |= 0x3F<<10;
+
+	}
+	rt_interrupt_leave();
+}
+
+

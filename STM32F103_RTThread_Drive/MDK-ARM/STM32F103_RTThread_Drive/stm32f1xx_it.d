@@ -26,4 +26,5 @@ stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/nvic.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/adc.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/pit.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/pwm.h
+stm32f103_rtthread_drive\stm32f1xx_it.o: ../Drivers/Inc/exti.h
 stm32f103_rtthread_drive\stm32f1xx_it.o: ../Core/Inc/stm32f1xx_it.h

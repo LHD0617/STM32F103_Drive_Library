@@ -40,6 +40,7 @@ extern "C" {
 #include "adc.h"
 #include "pit.h"
 #include "pwm.h"
+#include "exti.h"
 
 
 

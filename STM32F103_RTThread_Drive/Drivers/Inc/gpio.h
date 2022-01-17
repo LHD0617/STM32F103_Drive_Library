@@ -64,9 +64,6 @@ typedef enum
 /*获取引脚序号*/
 #define Get_Pin(pin)			(pin&0x0f)
 
-/*获取引脚速率*/
-#define Get_Pin(pin)			(pin&0x0f)
-
 
 /*函数声明*/
 void gpio_init(GPIO_Num pin, GPIO_Dir dir, uint8 dat, GPIO_Mode mode, GPIO_Speed speed);

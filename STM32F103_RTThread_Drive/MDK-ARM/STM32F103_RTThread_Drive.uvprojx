@@ -447,6 +447,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\Src\pwm.c</FilePath>
             </File>
+            <File>
+              <FileName>exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Src\exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

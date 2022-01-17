@@ -26,3 +26,4 @@ stm32f103_rtthread_drive\main.o: ../Drivers/Inc/nvic.h
 stm32f103_rtthread_drive\main.o: ../Drivers/Inc/adc.h
 stm32f103_rtthread_drive\main.o: ../Drivers/Inc/pit.h
 stm32f103_rtthread_drive\main.o: ../Drivers/Inc/pwm.h
+stm32f103_rtthread_drive\main.o: ../Drivers/Inc/exti.h
