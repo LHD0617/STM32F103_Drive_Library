@@ -1,0 +1,16 @@
+Dependencies for Project 'STM32F103_Drive', Target 'STM32F103_Drive': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x61EA0130)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_STM32F103_Drive-ID:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o stm32f103_drive\startup_stm32f103xb.o --depend stm32f103_drive\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x61EA04E3)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/CMSIS/Inc-I.\RTE\_STM32F103_Drive-ID:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_MD -DSTM32F103xB-o stm32f103_drive\main.o --omf_browse stm32f103_drive\main.crf --depend stm32f103_drive\main.d)
+I (../Core/Inc/main.h)(0x61EA059D)
+F (../Core/Src/stm32f1xx_it.c)(0x61EA095F)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/CMSIS/Inc-I.\RTE\_STM32F103_Drive-ID:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_MD -DSTM32F103xB-o stm32f103_drive\stm32f1xx_it.o --omf_browse stm32f103_drive\stm32f1xx_it.crf --depend stm32f103_drive\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x61EA059D)
+I (../Core/Inc/stm32f1xx_it.h)(0x61EA012C)
+F (../Core/Src/system_stm32f1xx.c)(0x61EA527D)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/CMSIS/Inc-I.\RTE\_STM32F103_Drive-ID:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_MD -DSTM32F103xB-o stm32f103_drive\system_stm32f1xx.o --omf_browse stm32f103_drive\system_stm32f1xx.crf --depend stm32f103_drive\system_stm32f1xx.d)
+I (../Core/Inc/stm32f1xx.h)(0x61EA0744)
+I (../Core/Inc/stm32f103xb.h)(0x616B86A5)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (../Core/Inc/system_stm32f1xx.h)(0x616B86A5)
