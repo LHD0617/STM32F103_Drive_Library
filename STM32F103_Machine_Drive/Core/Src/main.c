@@ -21,9 +21,10 @@
 #include "main.h"
 int main(void)
 {
+	gpio_init(PC13, GPO, 0, GPO_PUSH_PULL, GPIO_SPEED_50MHZ);
   while (1)
   {
-		
+		 
   }
 }
 

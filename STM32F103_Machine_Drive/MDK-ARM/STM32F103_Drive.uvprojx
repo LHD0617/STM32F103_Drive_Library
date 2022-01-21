@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/CMSIS/Inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -402,15 +402,20 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_it.c</FilePath>
             </File>
+            <File>
+              <FileName>system_stm32f1xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\system_stm32f1xx.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Drivers</GroupName>
           <Files>
             <File>
-              <FileName>system_stm32f1xx.c</FileName>
+              <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Core/Src/system_stm32f1xx.c</FilePath>
+              <FilePath>..\Drivers\Src\gpio.c</FilePath>
             </File>
           </Files>
         </Group>
