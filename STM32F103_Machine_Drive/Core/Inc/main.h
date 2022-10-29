@@ -29,6 +29,13 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "gpio.h"
+#include "uart.h"
+#include "nvic.h"
+#include "adc.h"
+#include "pit.h"
+#include "pwm.h"
+#include "exti.h"
+#include "delay.h"
 
 
 

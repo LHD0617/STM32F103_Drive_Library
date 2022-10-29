@@ -22,10 +22,11 @@
 int main(void)
 {
 	gpio_init(PC13, GPO, 0, GPO_PUSH_PULL, GPIO_SPEED_50MHZ);
-  while (1)
-  {
-		 
-  }
+	while (1)
+	{
+		gpio_reverse(PC13);
+		delay_ms(100);
+	}
 }
 
 

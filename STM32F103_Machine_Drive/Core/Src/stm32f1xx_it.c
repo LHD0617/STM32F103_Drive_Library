@@ -37,7 +37,16 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
+/*UART中断标志位*/
+vuint8 UART1_Interrupt_flag = 0;
+vuint8 UART2_Interrupt_flag = 0;
+vuint8 UART3_Interrupt_flag = 0;
 
+/*PIT中断标志位*/
+vuint8 PIT1_Interrupt_flag = 0;
+vuint8 PIT2_Interrupt_flag = 0;
+vuint8 PIT3_Interrupt_flag = 0;
+vuint8 PIT4_Interrupt_flag = 0;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/

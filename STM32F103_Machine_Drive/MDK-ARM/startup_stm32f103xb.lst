@@ -477,7 +477,7 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=stm32f103_drive\startup_stm32f103xb.d -ostm32f103_drive\startup_st
 m32f103xb.o -I.\RTE\_STM32F103_Drive -ID:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\C
 ore\Include -ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include --predef
-ine="__UVISION_VERSION SETA 527" --predefine="_RTE_ SETA 1" --predefine="STM32F
+ine="__UVISION_VERSION SETA 528" --predefine="_RTE_ SETA 1" --predefine="STM32F
 10X_MD SETA 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
 
 

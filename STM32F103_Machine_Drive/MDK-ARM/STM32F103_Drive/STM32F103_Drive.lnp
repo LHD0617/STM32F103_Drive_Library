@@ -4,6 +4,13 @@
 "stm32f103_drive\stm32f1xx_it.o"
 "stm32f103_drive\system_stm32f1xx.o"
 "stm32f103_drive\gpio.o"
+"stm32f103_drive\adc.o"
+"stm32f103_drive\exti.o"
+"stm32f103_drive\nvic.o"
+"stm32f103_drive\pit.o"
+"stm32f103_drive\pwm.o"
+"stm32f103_drive\uart.o"
+"stm32f103_drive\delay.o"
 --strict --scatter "STM32F103_Drive\STM32F103_Drive.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

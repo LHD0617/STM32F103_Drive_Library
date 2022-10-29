@@ -28,7 +28,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "common.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -43,7 +43,16 @@
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
+/*UART中断标志位*/
+extern vuint8 UART1_Interrupt_flag;
+extern vuint8 UART2_Interrupt_flag;
+extern vuint8 UART3_Interrupt_flag;
 
+/*PIT中断标志位*/
+extern vuint8 PIT1_Interrupt_flag;
+extern vuint8 PIT2_Interrupt_flag;
+extern vuint8 PIT3_Interrupt_flag;
+extern vuint8 PIT4_Interrupt_flag;
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/

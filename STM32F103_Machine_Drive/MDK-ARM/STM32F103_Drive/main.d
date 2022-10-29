@@ -10,3 +10,12 @@ stm32f103_drive\main.o: D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsi
 stm32f103_drive\main.o: D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
 stm32f103_drive\main.o: ../Core/Inc/system_stm32f1xx.h
 stm32f103_drive\main.o: ../Core/Inc/common.h
+stm32f103_drive\main.o: ../Drivers/Inc/uart.h
+stm32f103_drive\main.o: ../Core/Inc/stm32f1xx_it.h
+stm32f103_drive\main.o: ../Drivers/Inc/nvic.h
+stm32f103_drive\main.o: ../Drivers/Inc/adc.h
+stm32f103_drive\main.o: ../Drivers/Inc/pit.h
+stm32f103_drive\main.o: ../Drivers/Inc/pwm.h
+stm32f103_drive\main.o: ../Drivers/Inc/exti.h
+stm32f103_drive\main.o: ../Drivers/Inc/delay.h
+stm32f103_drive\main.o: D:\MDK5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
