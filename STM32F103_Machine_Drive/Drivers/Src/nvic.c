@@ -18,7 +18,7 @@
 
 /**
 	* @name		nvic_PriorityGroupConfig
-  * @brief  NVIC分组函数
+	* @brief  NVIC分组函数
 	* @param  PreemptionPriority			抢占中断优先级
 	* @param  SubPriority							子中断优先级
 						中断优先级务必设置在规定范围之内否则可能产生意想不到的错误
@@ -39,7 +39,7 @@ void nvic_init(uint8 PreemptionPriority, uint8 SubPriority, uint8 Channel)
 
 /**
 	* @name		nvic_PriorityGroupConfig
-  * @brief  NVIC分组函数
+	* @brief  NVIC分组函数
 	* @param  nvic_Group	分组号	0-4共五组
 	*					组 0： 0 位抢占优先级， 4 位响应优先级
 	*					组 1： 1 位抢占优先级， 3 位响应优先级

@@ -20,7 +20,7 @@ TIM_TypeDef *pwm_tim_index[4] = {TIM1, TIM2, TIM3, TIM4};
 
 /**
 	* @name		pwm_init
-  * @brief	PWM初始化
+	* @brief	PWM初始化
 	* @param  num		定时器编号  (1, 2, 3, 4)
 	* @param  pin		PWM输出引脚 (可在pwm.h文件中选择)
 	* @param  freq	PWM频率			(0-7200)Hz 务必为7200的因素 如:7200 3600 1200......
@@ -85,7 +85,7 @@ void pwm_init(PWM_TIM_Num num, PWM_CH pin, uint16 freq, uint16 duty)
 
 /**
 	* @name		pwm_duty
-  * @brief	PWM设置占空比
+	* @brief	PWM设置占空比
 	* @param  num		定时器编号  (1, 2, 3, 4)
 	* @param  pin		PWM输出引脚 (可在pwm.h文件中选择)
 	* @param  duty	占空比			(0-10000)

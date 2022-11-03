@@ -21,7 +21,7 @@ GPIO_TypeDef *gpio_group[4] = {GPIOA, GPIOB, GPIOC, GPIOD};
 
 /**
 	* @name		gpio_init
-  * @brief  GPIO初始化
+	* @brief  GPIO初始化
 	* @param  pin		引脚编号		(P(A,B,C)0-15)
 	* @param  dir		引脚方向		GPO输出	GPI输入
 	* @param  dat		初始化电平	0为低电平	1为高电平
@@ -70,7 +70,7 @@ void gpio_init(GPIO_Num pin, GPIO_Dir dir, uint8 dat, GPIO_Mode mode, GPIO_Speed
 
 /**
 	* @name		gpio_set
-  * @brief  GPIO设置引脚电平
+	* @brief  GPIO设置引脚电平
 	* @param  pin		引脚编号		(P(A,B,C)0-15)
 	* @param  dat		初始化电平	0为低电平	1为高电平
 	* @return void
@@ -84,7 +84,7 @@ void gpio_set(GPIO_Num pin, uint8 dat)
 
 /**
 	* @name		gpio_get
-  * @brief  GPIO获取引脚电平
+	* @brief  GPIO获取引脚电平
 	* @param  pin		引脚编号		(P(A,B,C)0-15)
 	* @return 引脚电平	0为低电平 1为高电平
 	* @Sample gpio_get(PA0)
@@ -97,7 +97,7 @@ uint8 gpio_get(GPIO_Num pin)
 
 /**
 	* @name		gpio_dir
-  * @brief  GPIO设置引脚方向
+	* @brief  GPIO设置引脚方向
 	* @param  pin		引脚编号		(P(A,B,C)0-15)
 	* @param  dir		引脚方向		GPO输出	GPI输入
 	* @param  mode	引脚模式		在gpio.h文件中可选择
@@ -142,7 +142,7 @@ void gpio_dir(GPIO_Num pin, GPIO_Dir dir, GPIO_Mode mode, GPIO_Speed speed)
 
 /**
 	* @name		gpio_reverse
-  * @brief  GPIO引脚翻转电平
+	* @brief  GPIO引脚翻转电平
 	* @param  pin		引脚编号		(P(A,B,C)0-15)
 	* @return void
 	* @Sample gpio_reverse(PC13)

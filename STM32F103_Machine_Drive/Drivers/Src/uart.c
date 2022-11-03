@@ -21,7 +21,7 @@ IRQn_Type uart_irq[3] = {USART1_IRQn, USART2_IRQn, USART3_IRQn};
 
 /**
 	* @name		uart_init
-  * @brief  UART初始化
+	* @brief  UART初始化
 	* @param  num				模块号	UART1 UART2 UART3
 	* @param  bound			波特率
 	* @param  TX_Pin		TX引脚(在uart.h文件中选择)
@@ -102,7 +102,7 @@ void uart_putchar(UART_Num num, uint8 dat)
 
 /**
 	* @name		uart_putbuff
-  * @brief  UART发送数组
+	* @brief  UART发送数组
 	* @param  num		模块号	UART1 UART2 UART3
 	* @param  buff	数组首地址
 	* @param  len		数组长度
@@ -117,7 +117,7 @@ void uart_putbuff(UART_Num num, uint8* buff, uint32 len)
 
 /**
 	* @name		uart_putstr
-  * @brief  UART发送字符串
+	* @brief  UART发送字符串
 	* @param  num		模块号	UART1 UART2 UART3
 	* @param  str		字符串
 	* @return void
@@ -129,7 +129,7 @@ void uart_putstr(UART_Num num, const char *str)
 }
 /**
 	* @name		uart_getchar
-  * @brief  UART接受一个字节(阻塞接收————循环等待直到接收到数据)
+	* @brief  UART接受一个字节(阻塞接收————循环等待直到接收到数据)
 	* @param  num		模块号	UART1 UART2 UART3
 	* @return 接收到的数据
 	* @Sample 
@@ -147,7 +147,7 @@ uint8 uart_getchar(UART_Num num)
 
 /**
 	* @name		uart_query
-  * @brief  UART接受一个字节(查询接收————循环等待直到接收到数据)
+	* @brief  UART接受一个字节(查询接收————循环等待直到接收到数据)
 	* @param  num		模块号	UART1 UART2 UART3
 	* @param  dat		接收的数据所存到的目的地址
 	* @return 接收是否成功  1为接收成功 0为不成功

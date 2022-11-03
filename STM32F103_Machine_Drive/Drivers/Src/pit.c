@@ -21,7 +21,7 @@ IRQn_Type tim_irq[4] = {TIM1_UP_IRQn, TIM2_IRQn, TIM3_IRQn, TIM4_IRQn};
 
 /**
 	* @name		pit_init_ms
-  * @brief  PIT中断初始化(ms)
+	* @brief  PIT中断初始化(ms)
 	* @param  num	定时器(1-4)
 	* @param  ms (0-65535)
 	* @param  PreemptionPriority	抢占优先级 (0-3)

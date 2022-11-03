@@ -18,7 +18,7 @@
 
 /**
 	* @name		exti_init
-  * @brief  The application entry point.
+	* @brief  The application entry point.
 	* @param  pin		引脚编号		(P(A,B,C)0-15)
 	* @param  mode	中断模式		EXTI_Rising, EXTI_Falling, EXTI_Reverse
 	* @param  PreemptionPriority	抢占优先级 (0-3)

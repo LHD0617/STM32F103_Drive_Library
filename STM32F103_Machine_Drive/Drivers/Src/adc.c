@@ -21,7 +21,7 @@ ADC_TypeDef *adc_index[2] = {ADC1, ADC2};
 
 /**
 	* @name		adc_init
-  * @brief  ADC初始化
+	* @brief  ADC初始化
 	* @param  num ADC模块号 ADC_1 ADC_2
 	* @param  pin	引脚号
 	* @return void
